@@ -1,5 +1,5 @@
 {
-    "name": "bkstar123/laravel-recpatcha",
+    "name": "bkstar123/laravel-recaptcha",
     "description": "Google reCaptcha v2 validation",
     "keywords": [
         "laravel",
@@ -16,7 +16,8 @@
             "email": "hoangtuandhbk@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": "^7.1.3",
         "guzzlehttp/guzzle": "^6.3"

@@ -1,0 +1,36 @@
+{
+    "name": "bkstar123/laravel-recpatcha",
+    "description": "Google reCaptcha validation",
+    "keywords": [
+        "laravel",
+        "reCaptcha",
+        "validator",
+        "validation",
+        "laravel-recaptcha"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hoang Anh Tuan",
+            "email": "hoangtuandhbk@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bkstar123\\LaravelRecaptcha\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bkstar123\\LaravelRecaptcha\\LaravelRecaptchaServiceProvider"
+            ]
+        }
+    }
+}

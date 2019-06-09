@@ -18,8 +18,7 @@ Add the following settings in the .env file:
 You can add Google reCaptcha v2 validation to your site by simply calling
     ```{{ Recaptcha::addClient() }}```   
 
-**Note**:
-**Recaptcha** alias is automatically registered, so you do not need to add it in the `config/app.php`
+**Note**: **Recaptcha** alias is automatically registered, so you do not need to add it in the `config/app.php`
 
 The following input will be automatically added to your view and being validated in the validation logic  
 ```html 

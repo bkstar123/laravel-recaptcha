@@ -1,6 +1,6 @@
 {
     "name": "bkstar123/laravel-recpatcha",
-    "description": "Google reCaptcha validation",
+    "description": "Google reCaptcha v2 validation",
     "keywords": [
         "laravel",
         "reCaptcha",
@@ -19,7 +19,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^7.1.3"
+        "php": "^7.1.3",
+        "guzzlehttp/guzzle": "^6.3"
     },
     "autoload": {
         "psr-4": {

@@ -27,6 +27,7 @@ class LaravelRecaptchaServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__.'/Config/bkstar123_recaptcha.php', 'bkstar123_recaptcha');
 
         Validator::extend('recaptcha', '\Bkstar123\LaravelRecaptcha\RecaptchaValidator@validate');
+        Validator::extend('recaptcha_v3', '\Bkstar123\LaravelRecaptcha\RecaptchaV3Validator@validate');
     }
 
     /**

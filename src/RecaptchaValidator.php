@@ -1,6 +1,6 @@
 <?php
 /**
- * Custom validator for re-captcha
+ * Custom validator for reCaptcha
  *
  * @author: tuanha
  * @last-mod: 09-June-2019

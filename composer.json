@@ -1,9 +1,10 @@
 {
     "name": "bkstar123/laravel-recaptcha",
-    "description": "Google reCaptcha v2 validation",
+    "description": "Google reCaptcha v2 checkbox & v3 validation",
     "keywords": [
         "laravel",
-        "reCaptcha",
+        "reCaptcha_V2",
+        "reCaptcha_V3",
         "validator",
         "validation",
         "laravel-recaptcha"

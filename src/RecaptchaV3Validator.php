@@ -36,7 +36,7 @@ class RecaptchaV3Validator
 
         $context = stream_context_create($options);
         $response = json_decode(file_get_contents($url, false, $context));
-        
-        return $response->success;
+
+        return $response->success && $response->score > config('bkstar123_recaptcha.threshold3');
     }
 }

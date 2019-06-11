@@ -14,11 +14,12 @@ For `reCaptcha_v2 Checkbox`, add the following settings in the .env file:
 
 For `reCaptcha_v3`, add the following settings in the .env file:   
     ```GOOGLE_RECAPTCHA3_KEY=<your-google-recaptcha-v3-key>```  
-    ```GOOGLE_RECAPTCHA3_SECRET=<your-google-recpatcha-v3-secret>```
+    ```GOOGLE_RECAPTCHA3_SECRET=<your-google-recpatcha-v3-secret>```  
+    ```GOOGLE_RECAPTCHA3_THRESHOLD=<your-desired-score-to-decide-this-is-a-human>``` (optional, by default set to 0.5)  
 
 ## 3. Usage for reCaptcha v2 checkbox  
 
-### 3.1 In blade view
+### 3.1 In Blade view
 
 You can add Google reCaptcha v2 validation to your site by simply calling
     ```{{ Recaptcha::addClient() }}```   

@@ -35,7 +35,7 @@ class LaravelRecaptchaServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        App::bind('recaptcha', function ($app) {
+        App::singleton('recaptcha', function ($app) {
             return new RecaptchaClient;
         });
 
